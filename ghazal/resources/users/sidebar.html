@@ -1,0 +1,264 @@
+     <section class="sec1 sticky-top">
+          <div class="container-fluid ">
+              <nav class="navbar navbar-expand-md navbar-light bg-white ">
+                  <a class="navbar-brand" href="#">Admin Panel</a><i class="fa fa-angle-double-right h4" data-toggle="collapse" data-target="#sidebar" aria-hidden="true"></i>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- left side nav---->
+                <div class="collapse navbar-collapse d-md-flex justify-content-between ml-5" id="mainmenu">
+                    <ul class="navbar-nav pl-3 ">
+                        <!--- 1 --->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Panel <span class="iconify ml-1 " data-icon="simple-line-icons:speedometer" data-inline="false" style="color: green"></span></a>
+                        </li>
+                        <!--- 2 --->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Users <i class="fa fa-user ml-1" aria-hidden="true" style="color:#008cff"></i></a>
+                        </li>
+                        <!--- 3 --->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Setting<i class="fa fa-cog ml-1" aria-hidden="true" style="color:red"></i></a>
+                        </li>
+                    </ul>
+                    <!-- right side nav---->
+                    <ul class="navbar-nav    align-items-center d-none d-md-flex ">
+                        <!-- 1-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               <span class="badge badge-pill badge-danger">5</span><i class="fa fa-bell ml-2" aria-hidden="true"></i>
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                      </li>
+                      <!-- 2-->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <span class="badge badge-pill badge-info">8</span><i class="fa fa-tasks ml-2" aria-hidden="true"></i>
+                       </a>
+                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </li>
+                  <!-- 3 -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       <span class="badge badge-pill badge-success">3</span><i class="fa fa-comment ml-2" aria-hidden="true "></i>
+                   </a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+              </li>
+              <!-- 4 -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <img src="img/avatar1.png" alt=""width="50px" height="50px">
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+          </li>
+      </ul>
+
+  </div><!-- header-->
+</nav>
+</div>
+</section><!-- header finished ---->
+
+
+<section class="sec2">
+    <div class="container-fluid">
+        <div class="row">
+
+             <div id="sidebar" class="col-md-2 bg-dark sidebar1 collapse show position-fixed"style="z-index: 999">
+                 <ul class="nav d-flex flex-column"> 
+
+                <li class="nav-item py-2">
+                    <a href="" class="nav-link">Hello Dear : Ghazal</a>
+                </li>
+                <!--1 user -->
+                <li class="nav-item">
+                 <a class="nav-link py-1" data-toggle="collapse" href="#submenu1" role="button" aria-expanded="false" aria-controls="submenu1">
+                  <i class="fa fa-user mr-1" aria-hidden="true"></i> Users <i class="fa fa-chevron-down float-right" aria-hidden="true"></i>
+              </li>
+              <div class="collapse box" id="submenu1">
+                  <a class="subitem  "><i class="fa fa-user-plus mr-2 ml-2" aria-hidden="true"></i>Add User</a>
+                  <a class="subitem"> <i class="fa fa-users mr-2 ml-2" aria-hidden="true"></i>Users List</a>
+                  <a class="subitem"><i class="fa fa-user-times  mr-2 ml-2" aria-hidden="true"></i>User Limitation</a>
+              </div>
+              <!--2 Post -->
+              <li class="nav-item">
+                  <a class="nav-link py-1 " data-toggle="collapse" href="#submenu2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                     <i class="fa fa-folder-open mr-1" aria-hidden="true"></i>  Posts <i class="fa fa-chevron-down float-right" aria-hidden="true"></i>
+                 </li>
+                 <div class="collapse box" id="submenu2">
+                    <a class="subitem"><span class="iconify mr-2 ml-2" data-icon="simple-line-icons:pencil" data-inline="false"></span>New Post</a>
+                    <a class="subitem"><i class="fa fa-folder mr-2 ml-2" aria-hidden="true"></i>Posts List</a>
+                </div>
+                <!-- 3 comment-->
+                <li class="nav-item">
+                  <a class="nav-link py-1" data-toggle="collapse" href="#submenu3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                   <i class="fa fa-comment mr-1  " aria-hidden="true"></i> Comments <i class="fa fa-chevron-down float-right" aria-hidden="true"></i>
+               </li>
+               <div class="collapse box" id="submenu3">
+                  <a class="subitem"><span class="iconify mr-2 ml-2" data-icon="simple-line-icons:bubbles" data-inline="false"></span>Comments List</a>
+
+              </div>
+              <!---4  category-->
+              <li class="nav-item">
+                  <a class="nav-link py-1" data-toggle="collapse" href="#submenu4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                   <span class="iconify mr-1" data-icon="simple-line-icons:grid" data-inline="false"></span> Categories <i class="fa fa-chevron-down float-right" aria-hidden="true"></i>
+               </li>
+               <div class="collapse box" id="submenu4">
+                  <a class="subitem"><i class="fa fa-plus-square mr-2 ml-2" aria-hidden="true"></i>New Category</a>
+                  <a class="subitem"> <span class="iconify mr-2 ml-2" data-icon="simple-line-icons:list" data-inline="false"></span> Category List</a>
+
+              </div>
+              <!--- 5 media-->
+              <li class="nav-item">
+                  <a class="nav-link py-1 " data-toggle="collapse" href="#submenu5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                   <span class="iconify mr-1" data-icon="simple-line-icons:camrecorder" data-inline="false"></span> Media <i class="fa fa-chevron-down float-right" aria-hidden="true"></i>
+               </li>
+               <div class="collapse box" id="submenu5">
+                  <a class="subitem"> <span class="iconify mr-2 ml-2" data-icon="simple-line-icons:cloud-upload" data-inline="false"></span>Upload File</a>
+                  <a class="subitem"> <span class="iconify mr-2 ml-2" data-icon="simple-line-icons:drawer" data-inline="false"></span>Files List</a>
+
+              </div>
+          </ul>
+             </div>
+
+<!---------------------------------------------Main content ------------------------------------>
+
+             <div id="main-content" class=" col-12 col-md-10 right-box p-0 ml-auto"> 
+                        <div class="col-12">
+                            <div class="breadbox">
+                                 <a href="" class="breadlinks">Home</a> / <a href="" class="breadlinks">Admin Panel</a> / <a href="" class="breadlinks">Dashbord</a> 
+                            </div>
+                          
+                        </div>
+                       
+<!--------------------------------------------- card Start from here ------------------------------------>
+
+                        <div class="box2-cards ">
+                            <div class="row">
+                             <!-- card 1 --->
+                               <div class="col-3">
+                                 <div class="card text-white bg-info mb-3" >
+                                  <div class="card-body">
+                                    <h3 class="card-title">260</h3>
+                                    <p class="card-text">Posts</p>
+                                   <canvas id="Chart1" class="w-100" height="85"></canvas>
+                                  </div>
+                                 </div>
+                                </div>                           
+                                <!-- card 2 --->
+                                <div class="col-3">
+                                 <div class="card text-white bg-success mb-3" >
+                                  <div class="card-body">
+                                    <h3 class="card-title">522</h3>
+                                    <p class="card-text">Categories</p>
+                                    <canvas id="Chart2" class="w-100" height="85"></canvas>
+                                  </div>
+                                 </div>
+                                </div>
+                                   <!-- card 3 --->
+                                 <div class="col-3">
+                                 <div class="card text-white bg-warning mb-3" >
+                                  <div class="card-body">
+                                    <h3 class="card-title">1588</h3>
+                                    <p class="card-text">Files</p>
+                                    <canvas id="Chart3" class="w-100" height="85"></canvas>
+                                  </div>
+                                 </div>
+                                </div>
+                                  <!-- card 4 --->
+                                 <div class="col-3">
+                                 <div class="card text-white bg-danger mb-3" >
+                                  <div class="card-body">
+                                    <h3 class="card-title">608</h3>
+                                    <p class="card-text">Users</p>
+                                      <canvas id="Chart4" class="w-100" height="85"></canvas>
+                                  </div>
+                                 </div>
+                                </div>
+                            </div><!-- row caro box-->  
+                        </div><!----box2-cards--->
+ <!--------------------------------------------- card End from here ------------------------------------>
+<div class="row row3 " style="height: 500px">
+    <div class="col-6">
+ <h3>Latest News</h3>  
+<table class="table">
+  <thead class="thead-light">
+  
+    <tr>
+      <th scope="col">Title</th>
+      <th scope="col">Category</th>
+      <th scope="col">Date</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+   
+  </tbody>
+</table>
+    </div><!---- last News---->
+     <div class="col-6">
+ <h3>Users</h3>  
+<table class="table">
+  <thead class="thead-light">
+  
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Date</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+   
+  </tbody>
+</table>
+</div><!----Users---->
+</div><!--- row3 ---->
+
+ <div class="footer d-flex align-items-end">
+     <p>2020 CreativeLabsPowered by Ghazal </p>
+ </div>
+
+             </div><!-- main page col-10---->
+       </div><!-- row main page -->
+</div><!-- container-fluid-->
+
+</section>
+
+
+
+<section class="sec3" style="margin-bottom: 1000px"></section>
+
